@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Buat Account Baru!</h1>  <!--Heading pertama judul 1-->
+    <h3>Sign Up Form</h3>        <!--Heading Kedua judul 2-->
+    <form action="welcome.html" method="POST"> <!--Agar form setelah di sign up akan menuju welcome-->
+        <label>First Name :</label> <br> <br> <!--input nama awal-->
+        <input type="text" name="namaawal"> <br> <br> 
+
+        <label>Last Name :</label> <br> <br> <!--input nama akhir-->
+        <input type="text" name="namaakhir"> <br> <br>
+
+        <label>Gender :</label> <br> <br> <!--input Gender-->
+        <input type="radio" name="gender">Male <br> 
+        <input type="radio" name="gender">Female <br> 
+        <input type="radio" name="gender">Other <br> <br>
+
+        <label>Nationality :</label> <br> <br> <!--input Kebangsaan-->
+        <select> name="Natio" <br> <br>
+        <option value="Indo"> Indonesian </option>
+            <option value="Singa"> Singaporean  </option>
+                <option value="Malay"> Malaysian  </option>
+                    <option value="Austra"> Australian  </option> <br> <br>
+        </select> <br> <br>
+                    <label>Language Spoken :</label> <br> <br> <!--input Bahasa-->
+                    <input type="checkbox"> Bahasa Indonesia <br> 
+                    <input type="checkbox"> English <br>
+                    <input type="checkbox"> Other <br> <br>
+                    <label>Bio :</label> <br> <br> <!--input Bio-->
+                    <textarea name="bio" cols="30" rows="10"></textarea> <br> <br>
+                    <button>Sign Up</button> <!--Tombol Sign Up-->
+                    </form>    
+</body>
+</html>
